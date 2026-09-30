@@ -1,0 +1,28 @@
+{
+    "name": "diagnostico-desarrollo",
+    "version": "1.0.0",
+    "description": "Prueba de diagnostico de desarrollo backend",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test:db": "node testDb.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "cli",
+        "nodejs",
+        "mysql",
+        "gimnasio"
+    ],
+    "author": "Sergio Ricardo Ajú Miranda",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+        "chalk": "^6.0.0",
+        "dayjs": "^1.11.23",
+        "dotenv": "^18.0.3",
+        "express": "^5.2.1",
+        "inquirer": "^14.2.2",
+        "mysql2": "^3.24.4"
+    }
+}
